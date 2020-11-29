@@ -1,0 +1,54 @@
+.filter-container {
+  background: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0.5em;
+  display: grid;
+}
+.filter-heading {
+  text-align: center;
+}
+.sub-heading {
+  border-bottom: 1px solid;
+  justify-self: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+}
+.year-filter {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+.launch-filter {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+.land-filter {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+.filter-button {
+  width: 5em;
+  height: 2em;
+  background: #c5e09b;
+  border-radius: 0.3em;
+  border: none;
+  margin: 1.5em;
+  cursor: pointer;
+  outline: none;
+}
+.filter-button:hover {
+  background: #7aba01 !important;
+}
+.filter-applied {
+  width: 5em;
+  height: 2em;
+  background: #7aba01 !important;
+  border-radius: 0.3em;
+  border: none;
+  margin: 1.5em;
+  cursor: pointer;
+  outline: none;
+}

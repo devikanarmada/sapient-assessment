@@ -1,0 +1,106 @@
+.launch-list-container{
+    display: grid;
+}
+@media screen and (min-width: 700px) {
+    .launch-list-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .launch-list-container {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+
+
+.launch-item{
+    background: #fff;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 1em;
+    margin: 0.5em;
+}
+@media screen and (max-width: 768px) {
+    .launch-item{
+        margin-left: 56px;
+    }
+}
+.launch-image{
+    background: #f2f2f2;
+    width: 14em;
+}
+.launch-title{
+    color: #2b65ec;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-top: 0.5em;
+    margin: 0;
+}
+.mission-id{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-top: 0.5em;
+    margin: 0;
+}
+.launch-year{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+}
+.launch-year-title{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-top: 0.5em;
+    margin: 0;
+}
+.launch-year-value{
+    color: #98afc7;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    margin: 0;
+}
+.succ-launch{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+}
+.succ-launch-title{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-top: 0.5em;
+    margin: 0;
+}
+.succ-launch-value{
+    color: #98afc7;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    margin: 0;
+}
+.succ-land{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+}
+.succ-land-title{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-top: 0.5em;
+    margin: 0;
+}
+.succ-land-value{
+    color: #98afc7;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    margin: 0;
+}
