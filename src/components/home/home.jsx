@@ -14,9 +14,8 @@ export const HomeComponent = () => {
   const [isLaunched, setIsLaunched] = useState("");
   const [isLanded, setIsLanded] = useState("");
   let recordLimit = 50;
-  const getQueryParameters = () => {
-    fetchLaunches();
-  };
+
+  /*Method used to fetch data from backend */
   const fetchLaunches = async () => {
     let reqUrl = `${baseDomainUrl}/launches?limit=${recordLimit}`;
     if (appliedYear) {
@@ -36,8 +35,9 @@ export const HomeComponent = () => {
       changeUrl();
     });
   };
+
   useEffect(() => {
-    getQueryParameters();
+    fetchLaunches();
   }, [appliedYear, isLaunched, isLanded]);
 
   const applyFilter = (payload) => {
